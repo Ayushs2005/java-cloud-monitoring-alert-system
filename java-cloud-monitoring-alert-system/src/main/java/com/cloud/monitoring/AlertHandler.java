@@ -10,8 +10,7 @@ import java.util.Map;
 
 public class AlertHandler implements RequestHandler<Map<String, Object>, String> {
 
-    // Replace with your actual SNS Topic ARN before deployment
-    private static final String SNS_TOPIC_ARN = "YOUR_SNS_TOPIC_ARN_HERE";
+    private static final String SNS_TOPIC_ARN = "SNS_TOPIC_ARN_HERE";
 
     @Override
     public String handleRequest(Map<String, Object> event, Context context) {
